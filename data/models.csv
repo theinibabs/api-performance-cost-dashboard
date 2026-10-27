@@ -1,0 +1,6 @@
+model_id,model_name,model_type,cost_per_1k_tokens
+M01,TextGen-Pro,Text,0.02
+M02,Code-Assist,Code,0.03
+M03,Vision-Draft,Image,0.05
+M04,TextGen-Lite,Text,0.005
+M05,Data-Analyze,Data,0.04
