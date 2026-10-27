@@ -41,7 +41,7 @@ The raw operational data is structured into a relational star schema inside Post
   - `Normal`: 200–500 ms
   - `Slow` (Bottleneck): > 500 ms
 - **Cost Aggregation:** Multi-table joins evaluate cumulative platform spend per country:
-  $$\text{Cost} = \sum \left( \frac{\text{prompt\_tokens} + \text{completion\_tokens}}{1000} \times \text{cost\_per\_1k\_tokens} \right)$$
+  $$\text{Cost} = \sum \left( \frac{\text{Prompt Tokens} + \text{Completion Tokens}}{1000} \times \text{Cost per 1k Tokens} \right)$$
 - **Heavy-Usage Filtering:** Aggregated token usage identified enterprise workloads and models driving token volumes exceeding 10M tokens.
 
 ---
